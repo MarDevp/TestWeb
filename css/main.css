@@ -1,0 +1,52 @@
+/* about */
+.homepage-about-us {
+  overflow: hidden;
+  position: relative;
+  background-color: #033b0d;
+  
+  
+}
+.homepage-about-us-caption {
+  text-align: center;
+  position: relative;
+  margin: 8rem 1rem;
+  z-index: 1;
+  color: #033b0d;
+}
+.homepage-about-us-description {
+  max-width: 50em;
+  margin: 0 auto 2.8rem;
+  color: #033b0d;
+}
+  @keyframes example {
+    from {color: rgb(4, 48, 26);}
+    to {color: rgb(255, 255, 255);}
+  }
+ 
+  /* The element to apply the animation to */
+  .homepage-about-us-description , .homepage-about-us-caption , .display-4 {
+   
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    animation-direction :alternate;
+    animation-fill-mode :both;
+  }
+ 
+  @keyframes a {
+    from {color: rgb(223, 233, 228);}
+    to {color: rgb(15, 15, 15);}
+  }
+ 
+  /* The element to apply the animation to */
+ .display-4 {
+   
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    animation-direction :alternate;
+    animation-fill-mode :both;
+  }
+ 
