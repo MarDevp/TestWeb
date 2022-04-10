@@ -24,7 +24,7 @@
   }
  
   /* The element to apply the animation to */
-  .homepage-about-us-description , .homepage-about-us-caption  {
+  .homepage-about-us-description , .homepage-about-us-caption , .display-4 {
    
     animation-name: example;
     animation-duration: 2s;
@@ -34,4 +34,19 @@
     animation-fill-mode :both;
   }
  
-  
+  @keyframes a {
+    from {color: rgb(223, 233, 228);}
+    to {color: rgb(15, 15, 15);}
+  }
+ 
+  /* The element to apply the animation to */
+ .display-4 {
+   
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    animation-direction :alternate;
+    animation-fill-mode :both;
+  }
+ 

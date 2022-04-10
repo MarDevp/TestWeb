@@ -7,7 +7,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 900 !important;
+    font-weight: 800 !important;
 }
 /*
 .btn btn-success{
@@ -41,6 +41,7 @@ section {
     height: 100%;
     background: linear-gradient(to bottom,#92bcb5ff, #acc9c5ff);
     z-index: -1;
+   
 }
 
 .bg-cover {
@@ -48,6 +49,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+   
 }
 
 .hero-section {
